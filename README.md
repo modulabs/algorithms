@@ -4,5 +4,5 @@
 ## 풀잎스쿨 8기 (19.07.10 ~ 19.09.25)
 + participant : 권명하, 문태봉, 방대영, 이의령, 이재혁, 장진우, 정소영, 최홍용
 + guest: 권경모
-+ faciliator : 문태봉
++ facilitator : 문태봉
 + link : https://github.com/modulabs/algorithms/8th_flipped_school/
