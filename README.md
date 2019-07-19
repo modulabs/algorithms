@@ -5,4 +5,4 @@
 + participant : 권명하, 문태봉, 방대영, 이의령, 이재혁, 장진우, 정소영, 주희진, 최홍용
 + guest: 권경모
 + facilitator : 문태봉
-+ link : https://github.com/modulabs/algorithms/8th_flipped_school/
++ link : https://github.com/modulabs/algorithms/tree/master/8th_flipped_school
