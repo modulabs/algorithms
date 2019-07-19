@@ -24,9 +24,10 @@ int main()
     long long ans = 0;
     for (int j = 0; j <= 9; j++)
     {   
-        ans += d[n][j]%mod;
+        ans += d[n][j];
+        ans %= mod;
     }   
-    cout << ans%mod << "\n";
+    cout << ans << "\n";
 
     return 0;
 }
