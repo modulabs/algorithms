@@ -7,8 +7,7 @@ int main()
 {
     int n; cin >> n;
     for (int i = 1; i <= n; i++) cin >> p[i];
-    d[0] = 0; d[1] = p[1];
-    for (int i = 2; i <= n; i++)
+    for (int i = 1; i <= n; i++)
     {   
         d[i] = p[i];
         for (int j = i-1; j > 0; j--)
