@@ -14,13 +14,13 @@ int main()
         {   
             for (int k = 0; k <= j; k++)
             {   
-                d[i][j] += d[i-1][k]%mod;
+                d[i][j] += d[i-1][k];
+                d[i][j] %= mod;
             }   
-            d[i][j] %= mod;
         }   
     }   
     int ans = 0;
-    for (int j = 0; j < M; j++) ans += d[n][j]%mod;
+    for (int j = 0; j < M; j++) ans += d[n][j];
     cout << ans%mod << "\n";
 
     return 0;
